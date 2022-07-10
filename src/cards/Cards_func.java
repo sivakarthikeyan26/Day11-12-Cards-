@@ -8,7 +8,7 @@ public class Cards_func {
 	ArrayList deck = new ArrayList();
 	Object[][] players = new Object[4][9];
 	/*
-	 * Fuction to distrubute cards among 4 players.
+	 * Fuction to initialize the deck
 	 */
 	public void initialize_cards() {
 		String[] shape = {"Spade","Diamond","Hearts","Clubs"};
